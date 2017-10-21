@@ -1,0 +1,45 @@
+.report-item article{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 2% 1fr 2fr 2%;
+	grid-template-rows: 5% 1fr 1fr 5%;
+	/*grid-template-rows: 5px repeat(auto-fill, auto) 50px;*/
+}
+
+#footage article {
+	grid-template-rows: 5% 1fr 1fr 1fr 5%;
+}
+
+.r1c1 {
+		grid-column: 2/3;
+		grid-row: 2/3;
+}
+
+.r1c2 {
+	background-color: lightblue;
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+.r2c1 {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+
+.r2c2 {
+	background-color: lightblue;
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+
+.r3c1 {
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+
+.r3c2 {
+	background-color: lightblue;
+	grid-column: 3/4;
+	grid-row: 4/5;
+}

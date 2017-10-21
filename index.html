@@ -4,6 +4,7 @@
 		<title>Input Form</title>
 
 		<link rel='stylesheet' href='grid-styles.css' />
+		<link rel='stylesheet' href='nested-grid-styles.css' />
 		<link rel='stylesheet' href='main-styles.css' />
 
 	</head>
@@ -18,17 +19,19 @@
 
 			<div class="report-item" id="header">
 				<article>
-					<code class="date-label label">Date:</code>
+					<code class="date-label label r1c1">Date:</code>
 
 					<input	type="date"
 									id="report-date"
+									class="r1c2"
 									name="date"
 									placeholder="Date">
 
-					<code class="wellname-label label">Well Name:</code>
+					<code class="wellname-label label r2c1">Well Name:</code>
 					<input 	type="text"
 								class="form-control"
 								id="well-name"
+								class="r2c2"
 								name="well-name"
 								value="Well Name">
 				</article>
@@ -36,7 +39,33 @@
 			</div>
 
 			<div class="report-item" id="footage">
-				<code class="identifier"><pre>Footage</pre></code>
+				<!-- <code class="identifier"><pre>Footage</pre></code> -->
+				<article>
+					<code class="present-depth-label label r1c1">Present Depth:</code>
+					<input	type="number"
+									step="0.1"
+									id="present-depth"
+									class="r1c2"
+									name="present-depth"
+									placeholder="Present Depth">
+
+					<code class="previous-depth-label label r2c1">Previous Depth:</code>
+					<input	type="number"
+									step="0.1"
+									id="previous-depth"
+									class="r2c2"
+									name="previous-depth"
+									placeholder="Previous Depth">
+
+					<code class="footage-cut-label label r3c1">Footage Cut:</code>
+					<input	type="number"
+									step="0.1"
+									id="footage-cut"
+									class="r3c2"
+									name="footage-cut"
+									placeholder="Footage Cut">
+
+				</article>
 			</div>
 
 			<div class="report-item" id="penetration">
