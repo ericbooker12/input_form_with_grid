@@ -1,0 +1,35 @@
+.report-item {
+	border-style: groove;
+	border-width: 1px;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	color: #ddca7e;
+	background: #282c34;
+	padding: .5em .8em;
+	border-radius: .2em;
+}
+
+.report-item {
+	border-style: groove;
+	border-width: 1px;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.label {
+	display: flex;
+	justify-content: flex-end;
+	align-self: center;
+	color: #000;
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+
+
