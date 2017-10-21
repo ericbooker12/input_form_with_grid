@@ -77,19 +77,25 @@
 }
 
 #report-date {
-		background-color: lightblue;
-		grid-column: 3/4;
-		grid-row: 2/3;
+	background-color: lightblue;
+	grid-column: 3/4;
+	grid-row: 2/3;
 }
 
 .wellname-label {
-		grid-column: 2/3;
-		grid-row: 3/4;
+	grid-column: 2/3;
+	grid-row: 3/4;
 }
 
 #well-name {
-		background-color: lightblue;
-		grid-column: 3/4;
-		grid-row: 3/4;
+	background-color: lightblue;
+	grid-column: 3/4;
+	grid-row: 3/4;
 }
+
+#logo img{
+	width: 100%;
+	height: 100%;
+
+}​
 
