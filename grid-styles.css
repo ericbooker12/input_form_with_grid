@@ -1,0 +1,95 @@
+.main-form {
+	display: grid;
+	grid-template-columns: 2% 1fr 1fr 1fr 2%;
+	grid-template-rows: 20px repeat(10, 1fr 100px) 20px;
+	grid-gap: 5px;
+}
+
+#logo {
+	grid-column: 2/3;
+	grid-row: 3/5;
+}
+
+
+#header {
+	grid-column: 3/5;
+	grid-row: 3/5;
+}
+
+#footage {
+	grid-column: 2/3;
+	grid-row: 5/9;
+
+}
+
+#penetration {
+	grid-column: 3/4;
+	grid-row: 5/9;
+}
+
+#bit-info {
+	grid-column: 4/5;
+	grid-row: 5/9;
+}
+
+#circulation {
+	grid-column: 2/5;
+	grid-row: 9/11;
+}
+
+#temp-sum {
+	grid-column: 2/3;
+	grid-row: 11/15;
+}
+
+#surveys {
+	grid-column: 3/5;
+	grid-row: 11/15;
+}
+
+#lithology {
+	grid-column: 2/5;
+	grid-row: 15/19;
+}
+
+#fractures {
+	grid-column: 2/5;
+	grid-row: 19/21;
+}
+
+#remarks {
+	grid-column: 2/5;
+	grid-row: 21/22;
+}
+
+#header article{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 2% 1fr 2fr 2%;
+	grid-template-rows: 5% 45% 45% 5%;
+
+}
+
+.date-label {
+		grid-column: 2/3;
+		grid-row: 2/3;
+}
+
+#report-date {
+		background-color: lightblue;
+		grid-column: 3/4;
+		grid-row: 2/3;
+}
+
+.wellname-label {
+		grid-column: 2/3;
+		grid-row: 3/4;
+}
+
+#well-name {
+		background-color: lightblue;
+		grid-column: 3/4;
+		grid-row: 3/4;
+}
+
