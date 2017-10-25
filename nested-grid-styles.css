@@ -4,11 +4,11 @@
 	display: grid;
 	grid-template-columns: 2% 1fr 2fr 2%;
 	grid-template-rows: 5% 1fr 1fr 5%;
-	/*grid-template-rows: 5px repeat(auto-fill, auto) 50px;*/
 }
 
-#footage article {
+.r3 article{
 	grid-template-rows: 5% 1fr 1fr 1fr 5%;
+	height: 100%;
 }
 
 .r1c1 {
@@ -20,6 +20,7 @@
 	background-color: lightblue;
 	grid-column: 3/4;
 	grid-row: 2/3;
+	/*width: 100%;*/
 }
 
 .r2c1 {

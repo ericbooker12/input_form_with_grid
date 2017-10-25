@@ -38,9 +38,9 @@
 
 			</div>
 
-			<div class="report-item" id="footage">
+			<div class="report-item r3" id="footage">
 				<!-- <code class="identifier"><pre>Footage</pre></code> -->
-				<article>
+				<article  class="">
 					<code class="present-depth-label label r1c1">Present Depth:</code>
 					<input	type="number"
 									step="0.1"
@@ -68,8 +68,32 @@
 				</article>
 			</div>
 
-			<div class="report-item" id="penetration">
-				<code class="identifier"><pre>Penetration</pre></code>
+			<div class="report-item r3" id="penetration">
+				<article>
+					<code class="current-rop-label label r1c1">Current ROP:</code>
+					<input	type="number"
+									step="0.1"
+									id="current-rop"
+									class="r1c2"
+									name="present-depth"
+									placeholder="Present Depth">
+
+					<code class="rop-range-label label r2c1">ROP Range:</code>
+					<input	type="number"
+									step="0.1"
+									id="current-rop"
+									class="r2c2"
+									name="present-depth"
+									placeholder="Present Depth">
+
+					<code class="ROP-avg-label label r3c1">Footage Cut:</code>
+					<input	type="number"
+									step="0.1"
+									id="ROP-avg"
+									class="r3c2"
+									name="footage-cut"
+									placeholder="Footage Cut">
+				</article>
 			</div>
 
 			<div class="report-item" id="bit-info">
